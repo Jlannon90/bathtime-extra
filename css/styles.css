@@ -1,0 +1,18 @@
+img {
+  width: 100%;
+}
+
+
+@media (min-width: 768px) {
+  img {
+    width: 35%;
+  }
+
+  img {
+  float: left;}
+
+  #move {
+    float: right;
+  }
+
+}
