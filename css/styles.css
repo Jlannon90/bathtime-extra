@@ -2,17 +2,52 @@ img {
   width: 100%;
 }
 
+.navbar {
+  background: linear-gradient(to right, #FF9ED9 , #A43D7C);
+  margin: 0;
+  padding: 0;
+  width: 100vw !important;
+}
 
+.nav {
+  float: right;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white;
+}
+
+.ducky img {
+  width: 20%;
+  display: inline-block;
+  float: left;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+/*medium devices*/
 @media (min-width: 768px) {
   img {
     width: 35%;
   }
 
   img {
-  float: left;}
+  float: left;
+  }
 
   #move {
     float: right;
   }
+}
 
+/*large devices*/
+@media (min-width: 992px) {
+  img {
+    float: none;
+    width: 100%
+  }
+
+  #move {
+    float: none;
+  }
 }
