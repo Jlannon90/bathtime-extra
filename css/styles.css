@@ -1,12 +1,30 @@
+body {
+  font-family: Open Sans;
+}
+
+h1 {
+  font-family: Comfortaa;
+}
+h3 {
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-family: Comfortaa;
+  text-shadow: 2px 2px 2px #FF9ED9;
+  text-align: center;
+}
+
 img {
   width: 100%;
+  border-radius: 50%;
+  border: 3px solid #A43D7C;
+  margin: 5px;
+  padding: 4px;
 }
 
 .navbar {
   background: linear-gradient(to right, #FF9ED9 , #A43D7C);
-  margin: 0;
-  padding: 0;
-  width: 100vw !important;
 }
 
 .nav {
@@ -17,12 +35,19 @@ img {
   color: white;
 }
 
+/*.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+  letter-spacing: 3px;
+}*/
+
 .ducky img {
   width: 20%;
   display: inline-block;
   float: left;
   margin-top: 15px;
   margin-right: 10px;
+  border: none;
+  padding: 0px;
 }
 
 /*medium devices*/
@@ -38,6 +63,19 @@ img {
   #move {
     float: right;
   }
+
+  .nav {
+    float: left;
+  }
+
+  .col-md-4 {
+    margin-bottom: 25px;
+  }
+
+  .navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    letter-spacing: 3px;
+  }
 }
 
 /*large devices*/
@@ -49,5 +87,9 @@ img {
 
   #move {
     float: none;
+  }
+
+  .nav {
+    float: right;
   }
 }
